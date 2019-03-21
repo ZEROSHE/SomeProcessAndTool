@@ -29,9 +29,7 @@ def checkIP(ip):
 
 
 if __name__ == "__main__":
-    File = sys.argv[3]
-    if File == "":
-        File = 'ip.txt'
+    File = 'ip.txt'
     FSrcHandle = open(File)
     ips = FSrcHandle.readlines()
     FSrcHandle.close()
