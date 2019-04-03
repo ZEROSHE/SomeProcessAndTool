@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: InjectDll - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP3374.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/InjectDll.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\github_bak\tool\InjectDll\InjectDllDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP3374.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/InjectDll.pdb" /machine:I386 /out:"Release/InjectDll.exe"  .\Release\InjectDll.obj .\Release\InjectDllDlg.obj .\Release\StdAfx.obj .\Release\InjectDll.res "
+<h3>Output Window</h3>
+Compiling...
+InjectDllDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+InjectDll.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
